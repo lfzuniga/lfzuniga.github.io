@@ -27,13 +27,26 @@ url: "https://www.lfzuniga.com" # the base hostname & protocol for your site, e.
 twitter_username: lfzuniga_
 github_username: lfzuniga
 
+# Even though you can edit the color in the stlye.scss file, it's easier to change it here - LZ
+minima:
+  skin: "dark" # "light" or "dark"
+  date_format: "%Y-%m-%d"
+  social_links:
+    - { platform: github,  user_url: "https://github.com/lfzuniga" }
+    - { platform: x, user_url: "https://twitter.com/lfzuniga_" }
+    - { platform: linkedin, user_url: "https://twitter.com/lfzuniga" }
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 header_pages:
   - projects.markdown
-# - about.markdown
+  - writing.markdown
+  - about.markdown
+
+author:
+  name: Luis Zuñiga
+  email: luis.zuniga@yale.edu
 
 # Exclude from processing.
 # The following items will not be processed, by default.
