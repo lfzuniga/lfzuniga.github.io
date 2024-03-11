@@ -27,13 +27,20 @@ url: "https://www.lfzuniga.com" # the base hostname & protocol for your site, e.
 twitter_username: lfzuniga_
 github_username: lfzuniga
 
-# Build settings
-theme: minima
 plugins:
   - jekyll-feed
 header_pages:
   - projects.markdown
-# - about.markdown
+#- about.markdown
+#- principles.md
+
+
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
