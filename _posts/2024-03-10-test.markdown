@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Units of Composition"
+date: 2024-03-10 16:44:32 -0600
+categories: test
+---
+
+_This is a test note. Will be publishing other stuff as I get familirized with Jekyll._
+
+What are the main units we are composed of (that we can measure)?
+- Mass
+- Energy
+- Forces
+- Information
