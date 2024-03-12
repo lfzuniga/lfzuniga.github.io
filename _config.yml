@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Luis Zuñiga
+title: LZ
 email: luis.zuniga@yale.edu
 description: >- # this means to ignore newlines until "baseurl:"
 
@@ -29,25 +29,29 @@ github_username: lfzuniga
 
 # Even though you can edit the color in the stlye.scss file, it's easier to change it here - LZ
 minima:
-  skin: "dark" # "light" or "dark"
+  skin: "dark" #  "dark", "classic", 
   date_format: "%Y-%m-%d"
   social_links:
-    - { platform: github,  user_url: "https://github.com/lfzuniga" }
+    - { platform: github, user_url: "https://github.com/lfzuniga" }
     - { platform: x, user_url: "https://twitter.com/lfzuniga_" }
-    - { platform: linkedin, user_url: "https://twitter.com/lfzuniga" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/lfzuniga" }
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 header_pages:
-  - projects.markdown
-  - writing.markdown
-  - about.markdown
+ # - projects.markdown
+  #  - writing.markdown could add back once I have a better query function or something like that
+  - currently.markdown
 
 author:
   name: Luis Zuñiga
-  email: luis.zuniga@yale.edu
 
+# working with the collections part
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

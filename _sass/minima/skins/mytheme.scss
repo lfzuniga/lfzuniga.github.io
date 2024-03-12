@@ -1,0 +1,28 @@
+// NEED TO MODIFY this as the other s ike dark or something
+// And the modify the auto one
+
+
+@charset "utf-8";
+$color-scheme-auto: false;
+$color-scheme-dark: true; // change this to true if your theme is dark
+@import "minima/skins/auto";
+
+// Define your colors here
+$brand-color:           #06182a; // The main color for your brand. Used in various places across the site.
+$brand-color-light:     lighten($brand-color, 40%); // A lighter version of your brand color. Used for lighter elements.
+$brand-color-dark:      darken($brand-color, 25%); // A darker version of your brand color. Used for darker elements.
+$site-title-color:      $brand-color-light; // The color of the site title.
+$text-color:            #eeeeee; // The color of the main text.
+$background-color:      #111111; // The background color of the site.
+$code-background-color: #222222; // The background color of code blocks.
+$link-base-color:       $brand-color; // The color of links.
+$link-visited-color:    darken($link-base-color, 15%); // The color of visited links.
+$link-hover-color:      $text-color; // The color of links when hovered over.
+$border-color-01:       $brand-color-light; // The color of the first type of border.
+$border-color-02:       lighten($brand-color, 35%); // The color of the second type of border.
+$border-color-03:       $brand-color-dark; // The color of the third type of border.
+$table-text-color:      lighten($text-color, 18%); // The color of text in tables.
+$table-zebra-color:     lighten($brand-color, 46%); // The background color of alternate rows in tables (for zebra striping).
+$table-header-bg-color: lighten($brand-color, 43%); // The background color of table headers.
+$table-header-border:   lighten($brand-color, 37%); // The border color of table headers.
+$table-border-color:    $border-color-01; // The border color of tables.

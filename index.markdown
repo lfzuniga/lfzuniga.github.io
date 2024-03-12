@@ -5,6 +5,6 @@
 layout: home
 ---
 
-Hello! I'm Luis Zuñiga
+Hello! I'm Luis Zuñiga.
 
-I am interested in in exploring the intersection between physical and electrical systems.
+I'm interested in in exploring the intersection between physical and electrical systems.
