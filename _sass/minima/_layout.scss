@@ -121,7 +121,7 @@
  */
 .site-footer {
   border-top: 1px solid $border-color-01;
-  padding: calc($spacing-unit/3) 0;
+  padding: 10px 0; // Changed from Spacing unit to make footer less tall
 }
 
 .footer-heading {
