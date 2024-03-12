@@ -1,7 +1,7 @@
 ---
 layout: project
 title: PC Build
-description: Built a PC from scrath. This was my first time doing it.
+description: Built a PC from scrath with no experience. I go through the process and learnings.
 date: 2024-03-01
 status: Completed
 ---
