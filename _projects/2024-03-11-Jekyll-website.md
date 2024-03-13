@@ -9,7 +9,9 @@ status: Completed
 #### Goal
 - Build a personal website to share writings and projects.
 - Learn how to work with Github repositories and use the pages feature to host a static website
+
 #### Process
+
 The first thing to know about websites is that there are a lot of different ways of building and hosting them. There are also different "types" of websites generally based on how the website is generated and presented to the user. This website is a **static website**, which means each visitor will see the same and the content of the website will change only if I change the source code. **Dynamic websites** on the other hand, change their content in real-time based on user interaction or other factors [^1].
 
 Since static websites use less resources to run compared to dynamic ones, they are great for making a personal website. You can create and host one for free with [Github pages](https://pages.github.com). And you can use either of these three frameworks to make a static website:
