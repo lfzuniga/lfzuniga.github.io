@@ -59,6 +59,7 @@ The default website built with the `jekyll new <name-of-new-site>` command comes
 - `home.html`
 - `footer.html` 
 - `_layout.scss`
+
 The important thing to note about the theme is that if you want to edit how something *looks* in the website, you have to make changes to **both** the `.html` files and the `_layout.scss` file [^2]. The `_layout.scss` file contains the "functions" and the `.html` the actual "implementation" in the website. In summary, the main changes I made consisted on simplifying and improving the layout of the footer and simplifying the home page to have writings and projects. Because I wanted projects to be a "separate entity" from writings (or `posts`, and jekyll formally calls them), I created a new [collection](https://jekyllrb.com/docs/collections/) in `_config.yml` with the following specifications:
 ```ruby
 collections:
