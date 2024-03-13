@@ -1,10 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
 Hello! I'm Luis Zuñiga.
 
-I'm interested in in exploring the intersection between physical and electrical systems.
+I'm interested in exploring the intersection between physical systems and computation.
