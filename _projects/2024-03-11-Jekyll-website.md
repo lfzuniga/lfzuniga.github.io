@@ -70,5 +70,7 @@ collections:
 
 I of course made more small changes, all of which are in the [Github repository](https://github.com/lfzuniga/lfzuniga.github.io) (specifically in the `theme-redesign-zero`), but I thought these changes were the ones worth highlighting as I didn't find any in depth resource that really goes over how to edit a jekyll theme. I believe this is because every jekyll theme is significantly different so the steps on how to customize it will vary significantly from theme to theme.
 
+---
+
 [^1]: Twitter and pretty much any other social media website is a good example of a dynamic website.
 [^2]: You can also modify the `_base.scss` but I would only advise changing this file if you are changing something very basic about the website, such as how the images or code blocks are presented in the website.

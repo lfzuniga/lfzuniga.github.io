@@ -68,5 +68,7 @@ Once the parts arrived, I watched some tutorials and built it. I found these vid
 
 ![Image 3](/assets/images/IMG_0668.jpeg)
 
+---
+
 [^1]: I didn't realize this at first, but there are not a lot of options for good motherboards for small form factor PCs. This should not be a problem for less powerful CPUs but if you are aiming for a high performance SFF PC, you will most likely have to pay a premium price for a good motherboard.
 [^2]: If I had to figure this out again, I would use [Perplexity](https://www.perplexity.ai). It is a program that uses LLMs to browse the web and synthesize information from various sources. It has a feature to browse only reddit post which would have been very useful for synthesizing information.
