@@ -242,7 +242,8 @@
 
 .post-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start; //To have date and title in the same line
+                          //previouslt had center
 }
 
 .post-meta {
@@ -250,7 +251,7 @@
   margin-right: $spacing-unit;
   color: $brand-color;
   line-height: 1.5;
-  white-space: nowrap;
+  white-space: nowrap; //To have date in one line
 }
 
 .project-meta {
