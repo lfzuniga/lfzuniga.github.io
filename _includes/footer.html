@@ -44,15 +44,15 @@
 
     <div class="footer-col-wrapper">
       {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-        </ul>
+      <ul class="contact-list">
+        {% if site.author.name -%}
+        <li class="p-name">{{ site.author.name | escape }} &copy;</li>
+        {% endif -%}
+      </ul>
       {%- endif %}
 
       <div class="social-links">
-        {%- include social.html -%}
+      {%- include social.html -%}
       </div>
     </div>
 
