@@ -2,6 +2,6 @@
 layout: home
 ---
 
-Hello! I'm Luis Zuñiga.
+Hello! My name is Luis.
 
-I'm interested in exploring the intersection between physical (including chemical and biological) and digital systems, and computation broadly.
+The purpose of this website is to publish and keep track of technical notes, writings, and projects that might be useful for others.
