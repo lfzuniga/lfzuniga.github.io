@@ -200,9 +200,13 @@ We again have two scenarios here
 1. Heterogeneous Reaction at interface between $A$ and $B$. There is no flow through the interface so we can simplify our equation to: 
 $$\mathbf{J}_{i, B} \cdot \mathbf{n}_I-\mathbf{J}_{i, A} \cdot \mathbf{n}_I=R_{S, i}$$
 
-   If phase $B$ is also impermeable to $i$, then $\mathbf{J}_{i, B}=\mathbf{0}$ and $\mathbf{J}_{i, A} \cdot \mathbf{n}_I=R_{S . i}$.
+   If phase $B$ is also impermeable to $i$, then 
 
-2. Convective Boundary. Need to ask about this.
+   $$\mathbf{J}_{i, B}=\mathbf{0}$$ 
+
+   $$\mathbf{J}_{i, A} \cdot \mathbf{n}_I=R_{S . i}$$
+
+2. Convective Boundary.
 
 ## Other useful Conversions and Relations
 
