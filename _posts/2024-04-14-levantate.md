@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "No es «No Puedo», es «No Quiero»."
+title: "No es «No Puedo», es «No Quiero»"
 date: 2024-04-14
 categories:
 ---

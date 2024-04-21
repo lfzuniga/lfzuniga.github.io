@@ -261,6 +261,14 @@
   line-height: 1.5;
 }
 
+.note-meta {
+  margin: 0;
+  margin-right: $spacing-unit;
+  color: $brand-color;
+  line-height: 1.5;
+  white-space: nowrap; //To have date in one line
+}
+
 .post-link {
   display: block;
   @include relative-font-size(1);

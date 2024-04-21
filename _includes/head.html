@@ -2,6 +2,23 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']], // Defining inline delimiters
+        displayMath: [['$$', '$$'], ['\\[', '\\]']], // Optional: Defining display delimiters if needed
+        processEscapes: true, // Allows escaping with a backslash
+        tags: 'ams' // Optional: AMS math tags for equation numbering
+      },
+      svg: {
+        fontCache: 'global' // Uses global font cache (improves performance)
+      },
+      loader: {
+        load: ['output/svg', 'input/tex'] // Ensures SVG output and TeX input are loaded
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}

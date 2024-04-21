@@ -29,6 +29,24 @@ layout: base
     {%- endfor -%}
   </ul>
 
+  <!-- New section for Technical Notes -->
+  <span class="subsection-heading">Technical Notes</span>
+  <ul class="post-list">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign notes = site.notes | sort: 'date' | reverse -%} <!-- Corrected line -->
+    {%- for note in notes -%}
+    <li class="post-item">
+      <span class="note-meta">{{ note.date | date: date_format }}</span>
+      <h3 class="post-title">
+        <a class="post-link" href="{{ note.url | relative_url }}">
+          {{ note.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%} {{ note.excerpt }} {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  
     <!-- New section for projects -->
     <span class="subsection-heading">Projects</span>
     <ul class="post-list">
