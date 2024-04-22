@@ -1,10 +1,12 @@
 ---
 layout: note
-title: "Transport Phenomena - Continuity and Species Conservation"
-date: 2024-02-20
+title: "Continuity and Species Conservation"
+date: 2024-02-10
+categories:
+- Transport Phenomena
 ---
 
-Note: The content is this note is based on [Professor Amir Haji-Akbari](ttps://haji-akbari.yale.edu)'s lecture notes for Transport Phenomena II (CENG 315).
+Note: The content in this note is based on [Professor Amir Haji-Akbari](https://haji-akbari.yale.edu)'s lecture notes for Transport Phenomena II (CENG 315).
 
 ## Introduction
 Transport phenomena is about determining extent and direction where qunatities. such as mass, energy, and momentum are transferred in a system. We need the following properties to do that:
@@ -220,7 +222,7 @@ $$x_A=\frac{c_A}{c_A+c_B}=\frac{c_A}{c}$$
 
 ---
 
-[^1]: Reynolds Transport Theorem: $$\frac{d}{d t} \int_{V(t)} b d V=\int_{V(t)} \frac{\partial b}{\partial t} d V+\int_{S(t)} b \mathbf{n} \cdot \mathbf{v}_S d S$$ Which basically tells us that the rate of change of the *total stuff* in a volume ($\frac{d}{dt}\mathscr{B}_{\mathscr{V}}(t)$) is the same as the rate of change of the stuff per unit volume ($\frac{d}{dt}b$) counted in the volume plus the stuff that is leaving the surface ($b \mathbf{n} \cdot \mathbf{v}_S$) as a result of the surface moving ($\mathbf{v_S}$). 
+[^1]: Reynolds Transport Theorem: $$\frac{d}{d t} \int_{V(t)} b d V=\int_{V(t)} \frac{\partial b}{\partial t} d V+\int_{S(t)} b \mathbf{n} \cdot \mathbf{v}_S d S$$ Which basically tells us that the rate of change of the *total stuff* in a volume ($\frac{d}{dt}\mathscr{B}_{\mathscr{V}}(t)$) is the same as the rate of change of the stuff per unit volume ($\frac{d}{dt}b$) counted in the volume plus the stuff that is leaving the surface ($b \mathbf{n} \cdot \mathbf{v}_S$) as a result of the surface moving ($\mathbf{v_S}$). The Reynolds Transport Theorem comes from the [Leibnz integral rule](https://en.wikipedia.org/wiki/Leibniz_integral_rule).
 
 [^2]: Gauss Theorem to convert a surface integral to volume integral $$\int_{S(t)} \mathbf{n} \cdot \mathbf{F} d S=\int \nabla \cdot \mathbf{F} d V$$
 
