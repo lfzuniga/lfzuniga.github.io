@@ -7,7 +7,7 @@ categories:
 
 To control a physical system, a person has to enact a change for the system to follow. For example, to control the direction of a car, the driver has to turn the wheel. 
 
-There is always a "lag time" between enacting change (turning the wheel, input) and the change (the car turning, output); the input does not immediately result in an output. There are still a few *interstice of seconds* that follow turning the wheel and the car beginning to turn. And it is these split seconds that variability creeps into the system. In the example of a car, this nuance might seem irrelevant as we are talking about fractions of a second. However, in more complicated systems like adding chemicals to an ongoing chemical reaction, the lag time might be longer, making it harder to connect input with output. 
+There is always a "lag time" between enacting change (turning the wheel, input) and the change (the car turning, output); the input does not immediately result in an output. There are still a few *interstice of seconds* that follow turning the wheel and the car beginning to turn. And it is in these split seconds that variability creeps into the system. In the example of a car, this nuance might seem irrelevant as we are talking about fractions of a second. However, in more complicated systems like adding chemicals to an ongoing chemical reaction, the lag time might be longer, making it harder to connect input with output. 
 
 In biology we can find several examples where lag time is substantial. For instance, when we receive medicine (input), it might take hours or days for us to feel better (output). Systems where the lag time is longer are complex and harder to understand and control.
 
